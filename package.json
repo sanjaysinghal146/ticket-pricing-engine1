@@ -1,0 +1,24 @@
+{
+  "name": "ticket-pricing-engine",
+  "version": "1.0.0",
+  "description": "A trustworthy pricing engine for a multiplex booking counter — tiers, sold-out handling, stacked offers, convenience fee and GST, all reconciled to the exact paisa.",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/cli.ts",
+    "dev": "ts-node-dev --respawn src/cli.ts",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": ["pricing-engine", "billing", "multiplex", "gst"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.30",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
